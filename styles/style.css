@@ -274,3 +274,35 @@ header {
     display: flex;
     justify-content: center
 }
+
+
+/* footer */
+footer {
+    background-color: #001931;
+}
+.footer-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 120px 0px;
+}
+
+.footer-container h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-container i {
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+footer p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FAFAFA;
+    padding-bottom: 10px;
+}
