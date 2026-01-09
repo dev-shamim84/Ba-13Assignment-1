@@ -52,7 +52,7 @@ header {
 }
 /* hero section */
 #bennar-section {
-   background-image:linear-gradient(rgba(31, 17, 17, 0.479), rgba(34, 15, 15, 0.39)), url('./assets/hero-bg.png') ;
+   background-image:linear-gradient(rgba(31, 17, 17, 0.479), rgba(34, 15, 15, 0.39)), url('../assets/hero-bg.png') ;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
