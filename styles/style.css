@@ -45,15 +45,19 @@ header {
    border: none;
    border-radius: 5px;
    cursor: pointer;
+   transition: 0.5s;
 }
 
+.btn:hover {
+    background-color:#0b5229 ;
+}
 /* hero section */
 #bennar-section {
-   background-image: url(/assets/hero-bg.png);
+   background-image:linear-gradient(rgba(31, 17, 17, 0.384), rgba(34, 15, 15, 0.39)), url('/assets/hero-bg.png') ;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-   height: 90vh;
+   padding-bottom: 100px;
 }
 
 .bennar  {
@@ -103,8 +107,11 @@ header {
    border: none;
    border-radius: 5px;
    cursor: pointer;
+   transition: 0.5s;
 }
-
+.bennar .btn-1:hover {
+    background-color: #156b39;
+}
 .bennar .btn-2 {
    font-weight: 500;
    font-size: 16px;
@@ -116,8 +123,11 @@ header {
    color: #FFFFFF;
    border-radius: 5px;
    cursor: pointer;
+   transition: 0.5s;
 }
-
+.bennar .btn-2:hover {
+    background-color: #469165;
+}
 
 /* Note section */
 #note-section { 
@@ -157,7 +167,7 @@ header {
     box-shadow: 0px 0px 5px #c4b8b8;
     border-radius: 8px;
     height: 250px;
-    z-index: 10;
+    /* z-index: 10; */
 }
 .single-note h3 {
     font-weight: 500;
@@ -194,12 +204,10 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 .knowledge-container img {
     max-width: 600px;
     border-radius: 20px;
 }
-
 .knowledge-container h6 {
     font-size: 16px;
     font-weight: 500;
@@ -216,7 +224,6 @@ header {
     line-height: 20px;
     color: #627382;
 }
-
 .knowledge-container ul {
     list-style: none;
     margin-top: 20px;
@@ -245,18 +252,15 @@ header {
    width: 20px;
    margin-right:10px ;
 }
-
 /* think-more section */
 #challenge-section {
    padding: 50px 0px;
-    
 }
 .think-more {
     background-color: #F7F6F2;
     padding: 30px 0px ;
     border-radius: 20px;
 }
-
 .think-more h2 {
     text-align: center;
     font-size: 40px;
@@ -274,8 +278,6 @@ header {
     display: flex;
     justify-content: center
 }
-
-
 /* footer */
 footer {
     background-color: #001931;
@@ -286,14 +288,12 @@ footer {
    align-items: center;
    padding: 120px 0px;
 }
-
 .footer-container h5 {
     font-size: 20px;
     font-weight: 500;
     color: #FFFFFF;
     margin-bottom: 10px;
 }
-
 .footer-container i {
     font-size: 15px;
     font-weight: 500;
