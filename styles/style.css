@@ -90,7 +90,7 @@ header {
    font-weight: 400;
    line-height: 30px;
    color: #FFFFFF;
-   margin: 15px 0px;
+   margin: 20px 0px;
 }
 .bennar .btn-1 {
    font-weight: 500;
@@ -112,4 +112,69 @@ header {
    margin-left: 20px;
    color: #FFFFFF;
    border-radius: 5px;
+}
+
+
+/* Note section */
+#note-section { 
+   background-color:#fbfbfb;
+}
+.note-content {
+    margin-top: 60px;
+}
+.note-content h2 {
+   font-weight: 700;
+   font-size: 48px;
+   text-align: center;
+}
+.note-content P {
+   font-weight: 400;
+   font-size: 16px;
+   text-align: center;
+   color: #627382;
+   line-height: 30px;
+   margin-top: 10px;
+}
+.notes-card-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    
+}
+.single-note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 5px #c4b8b8;
+    border-radius: 8px;
+    height: 200px;
+}
+.single-note h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.single-note P{
+   text-align: center;
+   color:#627382;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 20px;
+}
+.single-note i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.76);
+    padding: 5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
